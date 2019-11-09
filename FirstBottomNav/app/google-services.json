@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "30107425860",
+    "firebase_url": "https://zapbie-chat-f2481.firebaseio.com",
+    "project_id": "zapbie-chat-f2481",
+    "storage_bucket": "zapbie-chat-f2481.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30107425860:android:998d50a3f02a0742",
+        "android_client_info": {
+          "package_name": "com.infiam.firstbottomnav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30107425860-lnqi3qmfncn0a2ekr317rhivqvj2if7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB47bFQDItKh0OpPkNdAlr8fj7ZCpIdzqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30107425860-lnqi3qmfncn0a2ekr317rhivqvj2if7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

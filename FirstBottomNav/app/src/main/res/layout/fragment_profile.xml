@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--android:background="@android:color/holo_blue_dark">-->
+
+    <LinearLayout
+        android:id="@+id/profile_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:paddingTop="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/default_image"/>
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:text=""
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/profile_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= ""
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/change_status_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_linear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_edit_black_24dp"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--android:background="@android:color/holo_green_light">-->
+
+    <Button
+        android:id="@+id/friend_request_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Respond to your friend requests"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:visibility="invisible"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/all_friends"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/friend_request_view">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
